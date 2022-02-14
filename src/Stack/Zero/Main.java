@@ -13,7 +13,6 @@ public class Main {
         int K = Integer.parseInt(br.readLine());
         int[] arr = new int[K];
 
-
         for(int i = 0; i < K; i++) {
 
             int number = Integer.parseInt(br.readLine());	// 정수 입력
@@ -31,7 +30,6 @@ public class Main {
             sum += arr[i];
         }
         System.out.println(sum);
-
     }
 
 }
